@@ -92,8 +92,14 @@
 }
 
 /*PORTAFOLIO*/
-.portafolio{
+.portafolio {
     margin-bottom: 40px;
+}
+
+.img-en-construccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*SOPORTE*/
