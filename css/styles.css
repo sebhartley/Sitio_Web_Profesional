@@ -91,41 +91,10 @@
     padding-top: 80px;
 }
 
-/* PORTAFOLIO */
-.titulo {
-  font-size: 2rem;
-  color: #2C3E50;
-  margin-bottom: 1rem;
+/*PORTAFOLIO*/
+.portafolio{
+    margin-bottom: 40px;
 }
-
-.descripcion-portafolio {
-  font-size: 1rem;
-  color: #7F8C8D;
-  margin-bottom: 2rem;
-}
-
-.card-custom {
-  border: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card-img-container {
-  padding: 1rem;
-}
-
-.card-body {
-  font-size: 1rem;
-}
-
-.img-icon {
-  width: 80px;
-  height: auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
 
 /*SOPORTE*/
 .soporte {
