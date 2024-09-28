@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,7 @@
               <a class="nav-link text-white" href="../index.html">Home</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link text-white" href="../Pages/nosotros.html" aria-current="page">Nosotros</a>
+              <a class="nav-link text-white" href="../Pages/nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link text-white" href="../Pages/servicios.html">Servicios</a>
@@ -45,52 +45,87 @@
     </nav>
   </header>
 
-  <main class="mt-5 pt-5 container">
-    <section class="text-center mb-5">
-      <h1>Portafolio</h1>
-      <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-    </section>
+  <main>
+    <div class="container mt-5 pt-5">
+      <section class="text-center mb-5">
+        <h1>Portafolio</h1>
+        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+      </section>
 
-    <!-- Portafolio Section -->
-    <section class="row text-center">
-      <div class="col-lg-6 mb-4">
-        <div class="card">
-          <img src="../img/proyecto_actual.jpg" class="card-img-top" alt="Proyecto actual">
-          <div class="card-body">
-            <h5 class="card-title">Empresa: Desarrollo de software</h5>
-            <p class="card-text">Descripción breve del proyecto de desarrollo de software. <br>
-            <a href="https://enlace-al-sitio.com" target="_blank">Ver prototipo</a></p>
+      <!-- Portafolio Section -->
+      <section class="row text-center mb-5">
+        <div class="col-lg-6 mb-4">
+          <div class="card">
+            <img src="../img/proyecto_actual.jpg" class="card-img-top" alt="Proyecto actual">
+            <div class="card-body">
+              <h5 class="card-title">Empresa: Desarrollo de software</h5>
+              <p class="card-text">Descripción breve del proyecto de desarrollo de software. <br>
+              <a href="https://enlace-al-sitio.com" target="_blank">Ver prototipo</a></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-6 mb-4">
-        <div class="card">
-          <img src="../img/en_construccion.jpg" class="card-img-top" alt="Proyecto en construcción">
-          <div class="card-body">
-            <h5 class="card-title">En construcción</h5>
-            <p class="card-text">Aquí poner el texto en construcción.</p>
+        <div class="col-lg-6 mb-4">
+          <div class="card">
+            <img src="../img/en_construccion.jpg" class="card-img-top" alt="Proyecto en construcción">
+            <div class="card-body">
+              <h5 class="card-title">En construcción</h5>
+              <p class="card-text">Aquí poner el texto en construcción.</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Logos de Tecnologías -->
-    <section class="text-center">
-      <h2>Tecnologías</h2>
-      <div class="d-flex justify-content-center gap-3">
-        <img src="../img/logo1.svg" alt="Logo Tecnología 1" width="50">
-        <img src="../img/logo2.svg" alt="Logo Tecnología 2" width="50">
-        <img src="../img/logo3.svg" alt="Logo Tecnología 3" width="50">
-        <img src="../img/logo4.svg" alt="Logo Tecnología 4" width="50">
-      </div>
-    </section>
+      <!-- Logos de Tecnologías -->
+      <section class="text-center mb-5">
+        <h2>Tecnologías</h2>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+          <img src="../img/logo1.svg" alt="Logo Tecnología 1" width="50">
+          <img src="../img/logo2.svg" alt="Logo Tecnología 2" width="50">
+          <img src="../img/logo3.svg" alt="Logo Tecnología 3" width="50">
+          <img src="../img/logo4.svg" alt="Logo Tecnología 4" width="50">
+        </div>
+      </section>
+    </div>
   </main>
 
-  <footer class="footer py-4">
-    <div class="container text-center">
-      <p>Materia: Diseño y Desarrollo Web | Curso: XXXXXXX | Grupo: XX</p>
-      <p>Todos los derechos reservados - Sitio desarrollado para uso educativo - 2024</p>
-      <img src="../img/logouade.svg" alt="Logo UADE" class="img-footer mt-2" width="100">
+  <footer class="footer py-2">
+    <div class="row d-none d-lg-flex p-0 m-0">
+      <div class="col-10">
+        <div class="row text-end pb-2">
+          <div class="col">
+            <p class="mb-0">Materia: Diseño y Desarrollo Web</p>
+          </div>
+          <div class="col">
+            <p class="mb-0">Curso: 492766</p>
+          </div>
+          <div class="col">
+            <p class="mb-0">Grupo: 11</p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col">
+            <p class="mb-0 footer-margin">Todos los derechos reservados - Sitio desarrollado para uso educativo - 2024</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 text-end">
+        <img src="../img/logouade.svg" alt="" class="img-footer">
+      </div>
+    </div>
+
+    <div class="row d-lg-none text-center p-0 m-0">
+      <div class="col-12">
+        <p class="mb-2">Todos los derechos reservados - Sitio desarrollado para uso educativo - 2024</p>
+      </div>
+      <div class="col-12">
+        <p class="mb-2">Materia: Diseño y Desarrollo Web</p>
+      </div>
+      <div class="col-12">
+        <p class="mb-2">Curso: 492766 | Grupo: 11</p>
+      </div>
+      <div class="col-12">
+        <img src="../img/logouade.svg" alt="Logo UADE" class="img-footer">
+      </div>
     </div>
   </footer>
 
