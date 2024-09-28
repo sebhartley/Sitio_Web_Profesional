@@ -25,7 +25,8 @@
               <a class="nav-link text-white" href="../index.html">Home</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link text-white" href="../Pages/nosotros.html" aria-current="page">Nosotros</a>
+              <a class="nav-link text-white" href="../Pages/nosotros.html"
+                aria-current="page">Nosotros</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link text-white" href="../Pages/servicios.html">Servicios</a>
@@ -44,91 +45,105 @@
       </div>
     </nav>
   </header>
-
-  <main>
-    <div class="container mt-5 pt-5">
-      <section class="text-center mb-5">
-        <h1>Portafolio</h1>
-        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-      </section>
-
-      <!-- Portafolio Section -->
-      <section class="row text-center mb-5">
-        <div class="col-lg-6 mb-4">
-          <div class="card">
-            <img src="../img/proyecto_actual.jpg" class="card-img-top" alt="Proyecto actual">
+  
+  <main class="container my-5">
+    <!-- Sección de introducción al portafolio -->
+    <section id="intro-portafolio" class="text-center mb-5">
+      <h2 class="titulo color-azul">Portafolio</h2>
+      <p class="mb-4">
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      </p>
+    </section>
+  
+    <!-- Sección de proyectos -->
+    <section id="proyectos" class="mb-5">
+      <div class="row justify-content-center">
+        <!-- Proyecto 1 -->
+        <div class="col-md-5 mb-4">
+          <div class="card card-custom">
+            <img src="../img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
             <div class="card-body">
-              <h5 class="card-title">Empresa: Desarrollo de software</h5>
-              <p class="card-text">Descripción breve del proyecto de desarrollo de software. <br>
-              <a href="https://enlace-al-sitio.com" target="_blank">Ver prototipo</a></p>
+              <p><strong>Empresa:</strong> Nombre y enlace del sitio de la empresa de desarrollo de Software (descripción breve), Link al prototipo.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-4">
-          <div class="card">
-            <img src="../img/en_construccion.jpg" class="card-img-top" alt="Proyecto en construcción">
+  
+        <!-- Proyecto 2 (En construcción) -->
+        <div class="col-md-5 mb-4">
+          <div class="card card-custom">
+            <img src="../img/en-construccion.jpg" class="card-img-top" alt="En construcción">
             <div class="card-body">
-              <h5 class="card-title">En construcción</h5>
-              <p class="card-text">Aquí poner el texto en construcción.</p>
+              <p><strong>Empresa:</strong> Aquí poner el texto. En construcción.</p>
             </div>
           </div>
         </div>
-      </section>
-
-      <!-- Logos de Tecnologías -->
-      <section class="text-center mb-5">
-        <h2>Tecnologías</h2>
-        <div class="d-flex justify-content-center gap-3">
-          <img src="../img/logo1.svg" alt="Logo Tecnología 1" width="50">
-          <img src="../img/logo2.svg" alt="Logo Tecnología 2" width="50">
-          <img src="../img/logo3.svg" alt="Logo Tecnología 3" width="50">
-          <img src="../img/logo4.svg" alt="Logo Tecnología 4" width="50">
+      </div>
+    </section>
+  
+    <!-- Sección de tecnologías -->
+    <section id="tecnologias" class="text-center py-4">
+      <h3 class="titulo color-azul mb-4">Tecnologías</h3>
+      <div class="row justify-content-center">
+        <div class="col-3 col-md-2 mb-4">
+          <img src="../img/tecnologia1.jpg" alt="Logo tecnología 1" class="img-fluid">
         </div>
-      </section>
-    </div>
+        <div class="col-3 col-md-2 mb-4">
+          <img src="../img/tecnologia2.jpg" alt="Logo tecnología 2" class="img-fluid">
+        </div>
+        <div class="col-3 col-md-2 mb-4">
+          <img src="../img/tecnologia3.jpg" alt="Logo tecnología 3" class="img-fluid">
+        </div>
+        <div class="col-3 col-md-2 mb-4">
+          <img src="../img/tecnologia4.jpg" alt="Logo tecnología 4" class="img-fluid">
+        </div>
+      </div>
+    </section>
   </main>
-
-  <footer class="footer py-2">
-    <div class="row d-none d-lg-flex p-0 m-0">
-      <div class="col-10">
-        <div class="row text-end pb-2">
-          <div class="col">
-            <p class="mb-0">Materia: Diseño y Desarrollo Web</p>
-          </div>
-          <div class="col">
-            <p class="mb-0">Curso: 492766</p>
-          </div>
-          <div class="col">
-            <p class="mb-0">Grupo: 11</p>
-          </div>
+  
+<footer class="footer py-2">
+  <div class="row d-none d-lg-flex p-0 m-0">
+    <div class="col-10">
+      <div class="row text-end pb-2">
+        <div class="col">
+          <p class="mb-0">Materia: Diseño y Desarrollo Web</p>
         </div>
-        <div class="row text-center">
-          <div class="col">
-            <p class="mb-0 footer-margin">Todos los derechos reservados - Sitio desarrollado para uso educativo - 2024</p>
-          </div>
+        <div class="col">
+          <p class="mb-0">Curso: 492766</p>
+        </div>
+        <div class="col">
+          <p class="mb-0">Grupo: 11</p>
         </div>
       </div>
-      <div class="col-2 text-end">
-        <img src="../img/logouade.svg" alt="" class="img-footer">
+      <div class="row text-center">
+        <div class="col">
+          <p class="mb-0 footer-margin">Todos los derechos reservados - Sitio desarrollado para uso educativo - 2024</p>
+        </div>
       </div>
     </div>
-
-    <div class="row d-lg-none text-center p-0 m-0">
-      <div class="col-12">
-        <p class="mb-2">Todos los derechos reservados - Sitio desarrollado para uso educativo - 2024</p>
-      </div>
-      <div class="col-12">
-        <p class="mb-2">Materia: Diseño y Desarrollo Web</p>
-      </div>
-      <div class="col-12">
-        <p class="mb-2">Curso: 492766 | Grupo: 11</p>
-      </div>
-      <div class="col-12">
-        <img src="../img/logouade.svg" alt="Logo UADE" class="img-footer">
-      </div>
+    <div class="col-2 text-end">
+      <img src="../img/logouade.svg" alt="" class="img-footer">
     </div>
-  </footer>
+  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <div class="row d-lg-none text-center p-0 m-0">
+    <div class="col-12">
+      <p class="mb-2">Todos los derechos reservados - Sitio desarrollado para uso educativo - 2024</p>
+    </div>
+    <div class="col-12">
+      <p class="mb-2">Materia: Diseño y Desarrollo Web</p>
+    </div>
+    <div class="col-12">
+      <p class="mb-2">Curso: 492766 | Grupo: 11</p>
+    </div>
+    <div class="col-12">
+      <img src="../img/logouade.svg" alt="Logo UADE" class="img-footer">
+    </div>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>
