@@ -93,43 +93,39 @@
 
 /* PORTAFOLIO */
 .titulo {
-    font-size: 2rem;
-    color: #2C3E50;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #2C3E50;
+  margin-bottom: 1rem;
 }
 
 .descripcion-portafolio {
-    font-size: 1rem;
-    color: #7F8C8D;
+  font-size: 1rem;
+  color: #7F8C8D;
+  margin-bottom: 2rem;
 }
 
 .card-custom {
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-img-container {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .card-body {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .img-icon {
-    width: 80px;
-    height: auto;
+  width: 80px;
+  height: auto;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
-@media (max-width: 576px) {
-    .img-icon {
-        width: 50px;
-    }
-}
 
 /*SOPORTE*/
 .soporte {
