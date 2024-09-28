@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.bg-general{
+.bg-general {
     background-image: url(../img/bg1.svg), url(../img/bg2.svg);
     background-position: left top, right bottom;
     background-size: auto;
@@ -16,47 +16,55 @@
     position: relative;
     font-weight: 600;
     padding-bottom: 5px;
-  }
-  
+}
+
 .nav-link.active::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%; 
+    width: 90%;
     height: 2px;
     background-color: #fff;
     padding-bottom: 0;
     margin: 0;
 }
-.img-navbar{
+
+.img-navbar {
     margin-left: 15px;
- }
-.navbar-toggler{
+}
+
+.navbar-toggler {
     background-color: #fff;
 }
 
 /*HOME*/
-.home{
+.home {
     padding-top: 150px;
 }
-.color-azul{
+
+.color-azul {
     color: #2C3E50;
 }
-.home-container{
+
+.home-container {
     height: calc(100vh - 375px);
 }
-.img-home{
+
+.img-home {
     width: 18%;
 }
-.home-custom{
+
+.home-custom {
     margin: 0 170px;
 }
-.text-home{
+
+.text-home {
     font-size: 1.25rem;
 }
-.btn-contacto{
+
+.btn-contacto {
     background-color: #FF6B6B;
     border-color: #FF6B6B;
     padding: 12px 150px;
@@ -65,68 +73,85 @@
     border-radius: 30px;
     font-size: 18px;
 }
+
 .btn-contacto:hover {
     background-color: #FF8787;
     border-color: #FF8787;
 }
 
 /*NOSOTROS*/
-.contenedor-centrado{
+.contenedor-centrado {
     min-height: calc(100vh - 247px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .secciones {
     padding-top: 80px;
 }
+
+/* PORTAFOLIO */
 .titulo {
-    color: #2C3E50 ;
-    margin: 40px 0px -20px 0px;
-    font-weight: 700;
-}
-.card-size {
-    width: 100%;
-    padding: 60px;
-}
-.img-icon{
-    margin-bottom: 5px;
-    margin-right: 5px;
-    width: 12%;
-}
-.margin-card-custom{
-    margin-right: 23px;
-}
-.card-img-top{
-    width: 60%;
-}
-.card-custom{
-    border: 0;
-    width: 18rem;
+    font-size: 2rem;
+    color: #2C3E50;
+    margin-bottom: 1rem;
 }
 
-.container-nosotros{
-    padding: 0 200px;
+.descripcion-portafolio {
+    font-size: 1rem;
+    color: #7F8C8D;
 }
+
+.card-custom {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-img-container {
+    padding: 1rem;
+}
+
+.card-body {
+    font-size: 1rem;
+}
+
+.img-icon {
+    width: 80px;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .img-icon {
+        width: 50px;
+    }
+}
+
 /*SOPORTE*/
-.soporte{
+.soporte {
     margin-bottom: 40px;
 }
-/*CONTACTO*/
 
-.contacto-title{
+/*CONTACTO*/
+.contacto-title {
     margin: 100px;
 }
 
 /*FOOTER*/
 footer {
-    background-color:#BDC3C7;
+    background-color: #BDC3C7;
 }
-.img-footer{
+
+.img-footer {
     width: 60%;
     padding: 8px;
     margin-top: 5px;
 }
-.footer-margin{
+
+.footer-margin {
     margin-left: 400px;
 }
